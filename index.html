@@ -16,8 +16,39 @@
 
   <!-- <link rel="stylesheet" href="css/academicons.min.css"> 
   <link rel="stylesheet" href="css/fontawesome.min.css">
-  <link rel="stylesheet" href="css/brands.min.css"> -->
-  <link rel="stylesheet" href="css/solid.min.css">
+  <link rel="stylesheet" href="css/brands.min.css"> 
+  <link rel="stylesheet" href="css/solid.min.css"> -->
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+</style>
 
   <!-- Make everything open in a new tab -->
   <base target="_blank">
@@ -25,6 +56,12 @@
 </head>
 
 <body>
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>
 
   <div class="landing">
 
@@ -55,33 +92,38 @@
       </div>
 <h2>EDUCATION</h2>
 <p>
-B.Sc. Theoretical Physics and Mathematics, St. Andrews, 1993.
-M.Sc. Exploration Geophysics, Durham, 1995.
-Ph.D. Volcano Seismology, Leeds, 1999.
+<ul>
+	<li>GCE Advanced ("A") levels in Pure and Applied Mathematics (A), Physics (A), and Computer Science (B).</li>
+	<li>B.Sc. Theoretical Physics and Mathematics, University of St. Andrews, 1993.</li>
+	<li>M.Sc. Exploration Geophysics, University of Durham, 1995.</li>
+	<li>Ph.D. Volcano Seismology, University of Leeds, 1999.</li>
+</ul>
 </p>
 
 <h2>BIO</h2>
 <p>
-My career has had 3 main stages so far: <b>Real-time Monitoring Operations</b>, <b>Research Support</b>, and <b>Primary Research</b>. 
+My career has had 3 main stages so far: <b>Real-time Monitoring/Operations</b>, <b>Research Support</b>, and <b>Primary Research</b>. 
 <ul>
-	<li>MONITORING: <p>In 1996 I was hired by the <a href="www.bgs.ac.uk">British Geological Survey (BGS)</a> to help monitor seismicity due to the ongoing eruption of the <a href="https://en.wikipedia.org/wiki/Soufrière_Hills">Soufriere Hills Volcano</a>, in Montserrat. I was impressed by the systems the US Geological Survey's VDAP team had installed, and realized that this was something I could build on. So I trained as a systems analyst/programmer, and worked in the IT industry, before joining the <a href="https://www.gi.alaska.edu/">University of Alaska Fairbanks Geophysical Institute (UAFGI)</a> in 1998 to build the first web-based volcano-seismic monitoring system for the <a href="https://avo.alaska.edu/">Alaska Volcano Observatory (AVO)</a>. In 2000, I rejoined BGS to rebuild and lead the seismic monitoring program at the <a href="https://web.archive.org/web/20030214212801/http://www.mvo.ms/">Montserrat Volcano Observatory (MVO)</a>, and I expanded the seismic monitoring to locate and quantify pyroclastic flow and lahar signals, since those were the primary hazards. In 2006 I returned to <a href="https://www.gi.alaska.edu/">UAFGI</a> where I further developed seismic monitoring systems for <a href="https://avo.alaska.edu/">AVO</a> and the <a href="https://web.archive.org/web/20081015035427/http://www.aeic.alaska.edu/">Alaska Earthquake Information Center (AEIC)</a> (the latter became the <a href="">Alaska Earthquake Center (AEC)</a> in 2013).</p></li>
+	<li>REAL-TIME MONITORING/OPERATIONS: <p>In 1996 I was hired by the <a href="www.bgs.ac.uk">British Geological Survey (BGS)</a> to help monitor seismicity due to the ongoing eruption of the <a href="https://en.wikipedia.org/wiki/Soufrière_Hills">Soufriere Hills Volcano</a>, in Montserrat. I was impressed by the systems the US Geological Survey's VDAP team had installed, and realized that this was something I could build on. So I trained as a systems analyst/programmer, and worked in the IT industry, before joining the <a href="https://www.gi.alaska.edu/">University of Alaska Fairbanks Geophysical Institute (UAFGI)</a> in 1998 to build the first web-based volcano-seismic monitoring system for the <a href="https://avo.alaska.edu/">Alaska Volcano Observatory (AVO)</a>. In 2000, I rejoined BGS to rebuild and lead the seismic monitoring program at the <a href="https://web.archive.org/web/20030214212801/http://www.mvo.ms/">Montserrat Volcano Observatory (MVO)</a>, and I expanded the seismic monitoring to locate and quantify pyroclastic flow and lahar signals, since those were the primary hazards. In 2006 I returned to <a href="https://www.gi.alaska.edu/">UAFGI</a> where I further developed seismic monitoring systems for <a href="https://avo.alaska.edu/">AVO</a> and the <a href="https://web.archive.org/web/20081015035427/http://www.aeic.alaska.edu/">Alaska Earthquake Information Center (AEIC)</a> (the latter became the <a href="">Alaska Earthquake Center (AEC)</a> in 2013).</p></li>
 	<li>RESEARCH SUPPORT: <p>Supporting the research of university professors and graduate students has always been part of my job, but it became my main role in 2013 when I joined the <a href="https://www.usf.edu/">University of South Florida (USF)</a> <a href="https://www.usf.edu/arts-sciences/departments/geosciences/">School of Geosciences</a>. This position included roles as Field Technician, Systems Administrator, Data Manager, and Programmer for the new Seismology Group. I also taught classes in Time Series Analysis, Seismic Data Analysis, and Programming.</p></li>
 	<li>PRIMARY RESEARCH: <p>In 2018 I was given a small startup to help build my own research program</p>.</li>
 </ul>
 
 
 <h2>RESEARCH</h2>
-	Leveraging my background, my research focuses on building software tools to enhance volcano-seismic monitoring, and understanding volcanic hazards. My research interests include:
-	<ul>
-		<li>cataloging, parameterizing and locating volcano-seismic signals including earthquake swarms, tremor, and pyroclastic density currents, and lahars;</li>
-		<li>automatic classification of discrete volcanic-seismic signals</li>
-		<li>banded tremor and its relation to hybrid swarms, ascent rate and dome collapses;</li>
-		<li>rainfall-induced dome collapses</li>
-		<li>open-source development of monitoring software, including alarm systems and near-real-time analysis tools</li>.
-	</ul>
+<b>Speciality Areas:</b> Volcano Seismology, Volcano-seismic Monitoring<br/>
+<p>
+Leveraging my background, my research focuses on building software tools to enhance volcano-seismic monitoring, and understanding volcanic hazards. My research interests include:
 </p>
+<ul>
+	<li>cataloging, parameterizing and locating volcano-seismic signals including earthquake swarms, tremor, and pyroclastic density currents, and lahars;</li>
+	<li>automatic classification of discrete volcanic-seismic signals</li>
+	<li>banded tremor and its relation to hybrid swarms, ascent rate and dome collapses;</li>
+	<li>rainfall-induced dome collapses</li>
+	<li>open-source development of monitoring software, including alarm systems and near-real-time analysis tools</li>.
+</ul>
+
 <h2>SPECIALTY AREAS</h2>
-Volcano Seismology, Volcano-seismic Monitoring
 <br/>
       <div class="container">
         <ul class="icons">
