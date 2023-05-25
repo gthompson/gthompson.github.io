@@ -2,6 +2,10 @@
 <html lang="en">
   
   <head>
+    <!-- Meta, title, CSS, favicons, etc. -->
+    {% include header.html %}
+
+    <!--
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
@@ -10,11 +14,6 @@
    <meta name="description" content="I am a Research Assistant studying volcanoes, seismology and infrasound at the University of South Florida.">
 <link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
-    <!-- <link rel="stylesheet" href="css/academicons.min.css"> 
-    <link rel="stylesheet" href="css/fontawesome.min.css">
-    <link rel="stylesheet" href="css/brands.min.css"> 
-    <link rel="stylesheet" href="css/solid.min.css"> -->
     <style>
       .topnav {
         overflow: hidden;
@@ -41,11 +40,14 @@
       }
 
     </style>
-    <!-- Make everything open in a new tab -->
     <base target="_blank">
+    -->
   </head>
   
   <body>
+    <!-- Navigation menu -->
+    {% include nav-main.html %}
+    <!--
     <div class="topnav">
       <ul>
         <li><a href="index.html">
@@ -53,11 +55,11 @@
         </a></li>
 	<br/>
         <li><a class="active" href="bio.html">
-          Bio
+          Biography
         </a></li>
 	<br/>
         <li><a href="GT_resume_new.html">
-          CV
+          Resum&#233;
         </a></li>
 	<br/>
         <li><a href="projects.html">
@@ -73,6 +75,8 @@
         </a></li>
       </ul>
     </div>
+
+    -->
     <div class="landing">
       <!-- Block 2: All other content -->
       <div class="main">
@@ -83,9 +87,9 @@
           Biography
         </h2>
         <p>
-          My career has had 3 main stages so far:
+          My career has had 3 main stages:
           <br/>
-	  <b>1996-2013: REAL-TIME MONITORING/OPERATIONS</b>
+	  <h3>1996-2013: REAL-TIME MONITORING/OPERATIONS</b>
               <p>
                 In 1996 I was hired by the
                 <a href="www.bgs.ac.uk">
@@ -156,10 +160,13 @@
                 UAFGI</a> and <a href="https://web.archive.org/web/20030214212801/http://www.mvo.ms/">
 		MVO</a></p> as well as forge collaborations with <a href="https://www.nasa.gov/centers/kennedy/home/index.html">NASA Kennedy Space Center</a>. 
 	</p>
+	<br/>
 	<p>
 	More details about current and past projects can be <a href="projects.html">here</a>.
       </div>
     </div>
+    <!-- Footer, if any -->
+    {% include footer.html %}
   </body>
 
 </html>
