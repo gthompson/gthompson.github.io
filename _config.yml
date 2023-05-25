@@ -59,7 +59,7 @@ yandex_site_verification :
 twitter:
   username               : &twitter
 facebook:
-  username               :
+  username               : volcano_glenn
   app_id                 :
   publisher              :
 og_image                 :  # Open Graph/Twitter default site image
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Menu"
   avatar           : "profile.png"
-  bio              : "biography.html"
+  bio              : "I am a Research Assistant studying volcanoes, seismology and infrasound at the University of South Florida."
   location         : "Tampa, FL, USA"
   employer         : "University of South Florida (USF)"
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
