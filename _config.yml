@@ -26,7 +26,7 @@ comments:
     shortname            :
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
+  facebook: "https://www.facebook.com/volcanoglenn/"
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
@@ -80,40 +80,40 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Menu"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
-  employer         :
+  bio              : "biography.html"
+  location         : "Tampa, FL, USA"
+  employer         : "University of South Florida (USF)"
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=lt8dyY0AAAAJ&view_op=list_works&sortby=pubdate"
+  email            : "thompsong@usf.edu"
+  researchgate     : "https://www.researchgate.net/profile/Glenn-Thompson-2"
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
-  flickr           :
-  facebook         :
+  flickr           : "https://www.flickr.com/photos/138666803@N07/albums"
+  facebook         : ""
   foursquare       :
-  github           : "academicpages"
+  github           : "gthompson"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "https://www.linkedin.com/in/glenn-thompson-14626422"
+  orcid            : "https://orcid.org/0000-0002-9173-0097"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "volcano_glenn"
   vine             :
   weibo            :
   xing             :
-  youtube          :
+  youtube          : "glennthompson1971@gmail.com"
   wikipedia        :
 
 
