@@ -81,11 +81,11 @@ analytics:
 # Site Author
 author:
   name             : "Menu"
-  avatar           : "profile.png"
-  bio              : "I am a Research Assistant studying volcanoes, seismology and infrasound at the University of South Florida."
+  avatar           : "headshot_gt_2021_small.png"
+  bio              : "I study volcanoes, using seismology and infrasound."
   location         : "Tampa, FL, USA"
   employer         : "University of South Florida (USF)"
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=lt8dyY0AAAAJ&view_op=list_works&sortby=pubdate"
   email            : "thompsong@usf.edu"
   researchgate     : "https://www.researchgate.net/profile/Glenn-Thompson-2"
@@ -93,8 +93,8 @@ author:
   bitbucket        :
   codepen          :
   dribbble         :
-  flickr           : "https://www.flickr.com/photos/138666803@N07/albums"
-  facebook         : ""
+  flickr           : "138666803@N07"
+  facebook         : "volcano_glenn"
   foursquare       :
   github           : "gthompson"
   google_plus      :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/glenn-thompson-14626422"
+  linkedin         : "glenn-thompson-14626422"
   orcid            : "https://orcid.org/0000-0002-9173-0097"
   pinterest        :
   soundcloud       :
@@ -113,7 +113,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : "glennthompson1971@gmail.com"
+  youtube          : "UC5iLC0HWyPu4rIneEB8anpQ"
   wikipedia        :
 
 

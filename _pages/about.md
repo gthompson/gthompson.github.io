@@ -14,4 +14,4 @@ redirect_from:
   - /about.html
 ---
 
-<img title="Portrait of Glenn Thompson" src="images/headshot_gt_2021.png" alt="A picture of Glenn Thompson">
+<img title="Portrait of Glenn Thompson" src="images/IMG_1337_me_heli_shv.jpeg" alt="A picture of Glenn Thompson">
