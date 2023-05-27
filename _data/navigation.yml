@@ -4,12 +4,15 @@ main:
     url: /publications/
 
   - title: "Talks"
-    url: /talks/    
+    url: /talks/   
+
+  - title: "Posters"
+    url: /posters/ 
 
   - title: "Teaching"
     url: /teaching/    
     
-  - title: "Portfolio"
+  - title: "R&D Projects"
     url: /portfolio/
         
   - title: "Blog Posts"
@@ -17,6 +20,9 @@ main:
     
   - title: "CV"
     url: /cv/
+
+  - title: "USFSeismicLab"
+    url: /usfseismiclab/
     
   - title: "Guide"
     url: /markdown/

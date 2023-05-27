@@ -26,8 +26,8 @@ comments:
     shortname            :
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook: "https://www.facebook.com/volcanoglenn/"
-    appid                :
+  facebook: 
+    appid                : "volcanoglenn"
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
 staticman:
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "volcano_glenn"
+  twitter          : "volcanoglenn"
   vine             :
   weibo            :
   xing             :
