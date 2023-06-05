@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV highlights"
+title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,14 +9,12 @@ redirect_from:
 
 {% include base_path %}
 
-## Education
-======
+<h2><ul>Education</ul></h2>
 * B.Sc. (Hons.) in Theoretical Physics & Mathematics, University of St. Andrews, 1993
 * M.Sc. in Geophysics, University of Durham, 1995
 * Ph.D in Volcano-Seismology, University of Leeds, 1999
 
-## Work experience
-======
+<h2><ul>Work experience</ul></h2>
 * 2018-Present: Research Assistant Professor
   * University of South Florida
 
@@ -51,7 +49,7 @@ redirect_from:
   * Druck Ltd.
   * Testing and calibrating pressure transducers
 
-[Full CV](GT_resume_new-3.pdf)
+<h2>[Full CV](GT_resume_new-3.pdf)</h2>
 
 
 
