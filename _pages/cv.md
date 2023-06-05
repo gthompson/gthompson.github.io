@@ -11,22 +11,40 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.Sc. (Hons.) in Theoretical Physics & Mathematics, University of St. Andrews, 1993
+* M.Sc. in Geophysics, University of Durham, 1995
+* Ph.D in Volcano-Seismology, University of Leeds, 1999
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2018-Present: Research Assistant Professor
+  * University of South Florida
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+* 2013-2018: Research Assistant
+  * University of South Florida
+
+* 2006-2013: Seismologist/Software architect
+  * University of Alaska Fairbanks Geophysical Institute
+  * Affiliated with: Alaska Volcano Observatory, Alaska Earthquake Center
+
+* 2003-2006: Geophysicist/Software architect
+  * British Geological Survey
+
+* 2000-2003: Seismic network manager/Deputy Director
+  * Montserrat Volcano Observatory
+
+* 1998-2000: Postdoctoral Seismologist/Programmer
+  * Alaska Volcano Observatory
+
+* Summer 1996: Junior Seismologist
+  * Montserrat Volcano Observatory
+
+* Summer 1992: Summer Student
+  * European Organization for Nuclear Research (CERN: *Conseil Européen pour la Recherche Nucléaire*) 
+  * Simulated muon jet-cell detectors
+
+
+<!--  
 Skills
 ======
 * Skill 1
@@ -35,6 +53,7 @@ Skills
   * Sub-skill 2.2
   * Sub-skill 2.3
 * Skill 3
+-->
 
 Publications
 ======
