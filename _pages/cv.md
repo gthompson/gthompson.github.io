@@ -51,7 +51,7 @@ redirect_from:
   * Druck Ltd.
   * Testing and calibrating pressure transducers
 
-[Full CV]()
+[Full CV](files/GT_resume_new-3.pdf)
 
 
 
