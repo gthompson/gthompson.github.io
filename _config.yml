@@ -59,7 +59,7 @@ yandex_site_verification :
 twitter:
   username               : &twitter
 facebook:
-  username               : volcano_glenn
+  username               : volcanoglenn
   app_id                 :
   publisher              :
 og_image                 :  # Open Graph/Twitter default site image
@@ -113,7 +113,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : "UC5iLC0HWyPu4rIneEB8anpQ"
+  youtube          : "glennthompson1971" #UC5iLC0HWyPu4rIneEB8anpQ
   wikipedia        :
 
 
