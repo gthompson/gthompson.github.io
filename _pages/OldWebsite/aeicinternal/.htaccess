@@ -1,8 +1,4 @@
 AuthUserFile .htpasswd
-AuthGroupFile /dev/null
-AuthName seis+web
+AuthName "Protected Site"
 AuthType Basic
-
-<Limit GET>
 require user aeicinternal
-</Limit>
