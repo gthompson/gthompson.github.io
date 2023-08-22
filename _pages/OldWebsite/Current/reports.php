@@ -1,0 +1,128 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  	<title>Glenn Thompson - Reports</title>
+  	 <link rel="stylesheet" type="text/css" href="glenn.css" media="all" />
+
+</head>
+<body>
+	<?php
+		include("topmenu.html");
+	?>
+
+	<div id="content">
+		<h2>Reports</h2>
+		<ol>
+		<li><a href="#present">2005&ndash;present</a></li>
+		<li><a href="#04">2000&ndash;04</a></li>
+		<li><a href="#99">1995&ndash;99</a></li>
+		</ol>
+		<div id="publications">
+		<h3 id="present">2005&ndash;present</h3>
+		<ul>
+<li>Thompson, G., The iMac Earthquake Notification System:  Installation Guide. AEIC Internal Report 2008-06, Alaska Earthquake Information Center, 2008.<a href="Reports/AEIC/IR2008-06.pdf" class="pdf">&nbsp;</a></li>
+
+<li>Thompson, G., The iMac Earthquake Notification System: User Guide. AEIC Internal Report 2008-05, Alaska Earthquake Information Center, 2008.<a href="Reports/AEIC/IR2008-05.pdf" class="pdf">&nbsp;</a></li>
+
+<li>Thompson, G., Delivery of Earthquake Notification Systems to Emergency Managers in Alaska. AEIC Internal Report 2008-04, Alaska Earthquake Information Center, 2008.<a href="Reports/AEIC/IR2007-01.pdf" class="pdf">&nbsp;</a></li>
+
+<li>Thompson, G., Martirosyan, A., Robinson, M., Hansen, R., The Trans-Alaska Pipeline ShakeMap system. AEIC Internal Report 2008-03, Alaska Earthquake Information Center, 2008.<a href="Reports/AEIC/IR2008-03.pdf" class="pdf">&nbsp;</a></li>
+
+<li>Thompson, G., Martirosyan, A., Robinson, M., Hansen, R., The AEIC ShakeMap system: Technical Report. AEIC Internal Report 2008-02, Alaska Earthquake Information Center, 2008.<a href="Reports/AEIC/IR2008-02.pdf" class="pdf">&nbsp;</a></li>
+
+<li>Thompson, G., LaFevers, M., Revised procedures for maintaining the AEIC Master Stations Database. AEIC Internal Report 2008-01, Alaska Earthquake Information Center, 2008.<a href="Reports/AEIC/IR2008-01.pdf" class="pdf">&nbsp;</a></li>
+
+<li>Thompson, G., Robinson, M., The Antelope-QDDS Interface. AEIC Internal Report 2007-02, Alaska Earthquake Information Center, 2007.<a href="Reports/AEIC/IR2007-02.pdf" class="pdf">&nbsp;</a></li>
+
+<li>Thompson, G., LaFevers, M., Maintaining the AEIC Master Stations Database. AEIC Internal Report 2007-01, Alaska Earthquake Information Center, 2007.<a href="Reports/AEIC/IR2007-01.pdf" class="pdf">&nbsp;</a></li>
+
+				<li>Gunn, D. A., Jackson, P. D., Thompson, G. <font color="blue">Fine Scale Structure of Core by Novel Resistivity Imaging</font>. BGS Report No. IR/05/065, 2005.</li>
+
+			 	<li>Gunn, D. A., Nelder L. M., Pearson, S., Thompson, G., Carney, J. N., Wallis, H., <font color="blue">Investigating shear wave methods to characterize sand and gravel thicknesses at Holme Pierrepont, Nottingham</font>. BGS Report No. IR/03/116, 2005.</li>
+		</ul>
+		<h3 id="04">2000&ndash;04</h3>
+		<ul>
+				<li>Thompson, G., <font color="blue">Rebuilding MVO seismic monitoring, January - February 2004</font>. MVO Open File Report 04/04, Montserrat Volcano Observatory, 2004.<a href="Reports/MVO/ofr_04_04RebuildingSeismicMonitoring.pdf" class="pdf"> &nbsp;</a></li>
+
+			 	<li>Dunkley, P. N., Norton, G. E., Hards, V. L., Ryan, G. A., Jolly, A. D., Thompson, G., <font color="blue">Summary of volcanic activity from May 2003 to February 2004</font>. MVO Open File Report 04/02, Montserrat Volcano Observatory, 2004.<a href="Reports/MVO/ofr_04_02.pdf" class="pdf"> &nbsp;</a></li>
+	
+				<li>Dunkley, P. N., Edmonds, M., Herd, R. A., Ryan, G. A., Norton, G., Hards, V. L., Jolly, A. D., Thompson, G., <font color="blue">Summary of volcanic events on 12/13 July 2003</font>. MVO Open File Report 04/01, Montserrat Volcano Observatory, 2004.<a href="Reports/MVO/ofr_04_01.pdf" class="pdf"> &nbsp;</a></li>
+	
+			<li>Cuss, R. J., Thompson, G., <font color="blue">Ground penetrating radar investigation of the fissuring of the A690 in Houghton-le-Spring </font>, Commissioned Report CR/03/301R, Urban Geoscience &amp; Geological Hazards Programme, British Geological Survey, 2003.<a href="Reports/BGS/CussThompsonCR_03_301.pdf" class="pdf"> &nbsp;</a></li>
+	
+			<li>Thompson, G., <font color="blue">The role of the Software Engineer within the seismic monitoring programme</font>. MVO Open File Report 03/03, Montserrat Volcano Observatory, 2003.<a href="Reports/MVO/ofr_03_03_RoleSoftwareEngineer.pdf" class="pdf"> &nbsp;</a></li>
+	
+			<li>Thompson, G., <font color="blue">Moving the seismic monitoring from Mongo Hill to Flemings</font>. MVO Open File Report 03/02, Montserrat Volcano Observatory, 2003.<a href="Reports/MVO/ofr_03_02_MovingSeismicMonitoringToFlemings_abridged.pdf" class="pdf"> &nbsp;</a></li>
+				
+			<li>Dunkley, P. N., Edmonds, M, Herd, R. A., Thompson, G., <font color="blue">Summary of volcanic activity and monitoring data, with particular emphasis on the second phase of dome building November 1999 to June 2003</font>. MVO Open File Report 03/01, Montserrat Volcano Observatory, 2003.<a href="Reports/MVO/OFR_03_01_SummaryActivity_9911_0306.pdf"  class="pdf"> &nbsp;</a></li>
+				
+			<li>Thompson, G., <font color="blue">Seismic software at MVO, January 2002</font>. MVO Open File Report 02/01, Montserrat Volcano Observatory, 2002.<a href="Reports/MVO/ofr_02_01_SeismicSoftware200201.pdf" class="pdf"> &nbsp;</a></li>
+
+				<li>Thompson, G., <font color="blue">An overview of banded tremor at the Soufriere Hills Volcano,1996-2001</font>. MVO Open File Report 01/02, Montserrat Volcano Observatory, 2001.<a href="Reports/MVO/ofr_01_02_BandedTremor.pdf" class="pdf"> &nbsp;</a></li>
+	
+			<li>Thompson, G., Dunkley, P. N., Edmonds, M., Herd, R. A., Jolly, A. D, <font color="blue">The 29 July 2001 collapse</font>. MVO Special Report 9, Montserrat Volcano Observatory, 2001.<a href="Reports/mvo_sr_9.pdf" class="pdf"> &nbsp;</a></li>
+	
+			<li>Thompson, G., <font color="blue">Upgrading the MVO seismic data acquisition and analysis systems and collaborating with SRU, October 2000</font>. MVO Open File Report 00/03, Montserrat Volcano Observatory, 2000.<a href="Reports/MVO/ofr_00_03_UpgradingDataAcquisitionAndAnalysis.pdf" class="pdf"> &nbsp;</a></li>
+	
+			<li>Thompson, G., <font color="blue">Review of MVO Seismic Monitoring, August 2000</font>. MVO Open File Report 00/02, Montserrat Volcano Observatory, 2000.<a href="Reports/MVO/ofr_00_02_ReviewOfSeismicMonitoring200008.pdf" class="pdf"> &nbsp;</a></li>
+	
+			<li>Thompson, G., Watts, R., Carn, S., Norton, G. Nye, R., Voight, B., <font color="blue">The 20 March, 2000 collapse of the November 1999 dome</font>. MVO Special Report 8, Montserrat Volcano Observatory, 2000. <a href="Reports/mvo_sr_8.pdf" class="pdf"> &nbsp;</a></li>
+		</ul>
+		<h3 id="99">1995&ndash;99</h3>
+		<ul>
+				<li>Thompson, G., <font color="blue">Investigation of the low-frequency seismic wavefield: Justification for a broadband network?</font>. MVO Open File Report 96/29, Montserrat Volcano Observatory, 1996.<a href="Reports/MVO/ofr_96_29_VLPWavefieldJustificationForBBNetwork.pdf" class="pdf"> &nbsp;</a></li>
+	
+		 	<li>Thompson, G., <font color="blue">Banded tremor at Soufriere Hills Volcano, July - August 1996</font>. MVO Open File Report 96/28, Montserrat Volcano Observatory, 1996. <a href="Reports/MVO/ofr_96_28_BandedTremor.pdf" class="pdf"> &nbsp;</a></li>
+	    </ul>
+
+		</div>
+		</div>
+<p id="footer">
+<SCRIPT language="JavaScript" type="text/javascript">
+//  update - from http://rainbow.arch.scriptmania.com/scripts
+<!--
+function getLongDateString()
+{	//method defined on class Date.
+	//Returns a date string of the form: Day DD Month,YYYY
+	//(e.g. Sunday 27 September, 1998)
+	monthNames = new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+dayNames = new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+	dayOfWeek = this.getDay();
+	day = dayNames[dayOfWeek];
+	dateOfMonth = this.getDate();
+monthNo = this.getMonth();
+	month = monthNames[monthNo];
+year = this.getYear();
+	if (year < 2000)
+year = year + 1900;
+dateStr = day+" "+dateOfMonth+" "+month+", "+year;
+	return dateStr;
+}
+//register the  method in the class Date
+Date.prototype.getLongDateString=getLongDateString;
+
+function DocDate()
+{ //return the document modification date (excl.time)
+//as a string
+	DateTimeStr = document.lastModified;
+	secOffset = Date.parse(DateTimeStr);
+	if (secOffset == 0 || secOffset == null) //Opera3.2
+			 dateStr = "Unknown";
+	else
+	{
+		aDate = new Date();
+		aDate.setTime(secOffset);
+		//use method defined above
+		datestr = aDate.getLongDateString();
+	}
+	return dateStr;
+}
+
+document.write("Last Update: ");
+document.writeln(DocDate(),"");
+// -->
+</script>
+	</p>
+</div>
+</body>
+</html>

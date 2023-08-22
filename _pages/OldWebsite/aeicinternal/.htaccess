@@ -1,0 +1,8 @@
+AuthUserFile /usr/local/mosaic/AEIC/internal/.htpasswd
+AuthGroupFile /dev/null
+AuthName seis+web
+AuthType Basic
+
+<Limit GET>
+require user aeicinternal
+</Limit>

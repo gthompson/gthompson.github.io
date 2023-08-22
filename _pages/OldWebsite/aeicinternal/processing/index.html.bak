@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>AEIC Internal Web Page</title>
+   <link title="indexstyle" href="../index.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+<h3>Processing</h3>
+<ul><p><a href="station_scan_list.html">Station  list for  scanning</a></p>
+<p><a href="AEIC_processing_manual.pdf">Processing  manual</a></p>
+<p><a href="../procedures/fm_manual.pdf">Focal mechanism (fm_tool) manual</a></p>
+<p>Weekly report tool manual <a href="weekly_report_manual.pdf">pdf</a> or <a href="weekly_report_manual.html">html</a></p>
+<p>Monthly report tool manual <a href="monthly_report_manual.pdf">pdf</a> or <a href="monthly_report_manual.html">html</a></p>
+<p>Monthly Catalog manual <a href="monthly_catalog_manual.pdf">pdf</a> or <a href="monthly_catalog_manual.html">html</a></p>
+<p>Small-scale <a href="station_map.pdf">station map for processing</a></p>
+</ul>
+
+</body>
+</html>

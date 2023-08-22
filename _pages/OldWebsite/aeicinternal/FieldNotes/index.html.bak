@@ -1,0 +1,49 @@
+<html>
+<head>
+<style type="text/css">
+td {font-size: 10pt; text-align: center; }
+h3 {font-size: 12pt; }
+th {font-size: 10pt; background-color: #cccccc;}
+th.top {font-size: 10pt; background-color: #999999;}
+
+</style>
+<title>Field Notes</title>
+</head>
+
+<body>
+
+<h3>This page is a simple menu of links to important Field Notes collated by Steve Estes, and sent round in an email of 8th May 2007<h3>
+<p><i>- Glenn Thompson, Aug 2007</i></p>
+
+<table border="1">
+<tr><th class="top">Year</th><th class="top">Summary</th><th class="top">Plans</th></tr>
+<tr><th>2007</th><td><a href="2007FieldWork/2007FieldSum.html"></a></td><td><a href="2007FieldWork/2007FieldPlans.html">*</a></td></tr>
+<tr><th>2006</th><td><a href="2006FieldWork/2006FieldSum.html">*</a></td><td><a href="2006FieldWork/2006FieldPlans.html">*</a></td></tr>
+<tr><th>2005</th><td><a href="2005FieldWork/2005FieldSum.html">*</a></td><td><a href="2005FieldWork/2005FieldPlans.html">*</a></td></tr>
+<tr><th>2004</th><td><a href="2004FieldWork/2004FieldSum.html">*</a></td><td><a href="2004FieldWork/2004FieldPlans.html">*</a></td></tr>
+<tr><th>2003</th><td><a href="2003FieldWork/2003FieldSum.html">*</a></td><td><a href="2003FieldWork/2003FieldPlans.html">*</a></td></tr>
+<tr><th>2002</th><td><a href="2002FieldWork/2002FieldSum.html">*</a></td><td><a href="2002FieldWork/2002FieldPlans.html">*</a></td></tr>
+<tr><th>2001</th><td><a href="2001FieldWork/2001FieldSum.html">*</a></td><td><a href="2001FieldWork/2001FieldPlans.html">*</a></td></tr>
+<tr><th>2000</th><td><a href="2000FieldWork/2000FieldSum.html">*</a></td><td><a href="2000FieldWork/2000FieldPlans.html"></a></td></tr>
+<tr><th>1999</th><td><a href="1999FieldWork/1999FieldSum.html">*</a></td><td><a href="1999FieldWork/1999FieldPlans.html"></a></td></tr>
+<tr><th>1998</th><td><a href="1998FieldWork/1998FieldSum.html">*</a></td><td><a href="1998FieldWork/1998FieldPlans.html"></a></td></tr>
+<tr><th>1997</th><td><a href="1997FieldWork/1997FieldSum.html">*</a></td><td><a href="1997FieldWork/1997FieldPlans.html"></a></td></tr>
+<tr><th>1996</th><td><a href="1996FieldWork/1996FieldSum.html">*</a></td><td><a href="1996FieldWork/1996FieldPlans.html"></a></td></tr>
+<tr><th>1995</th><td><a href="OldAVO_ops/1995_field_summary.html">*</a></td><td><a href="OldAVO_ops/1995_field_plans.html">*</a></td></tr>
+<tr><th>1994</th><td><a href="OldAVO_ops/">*</a></td><td><a href="OldAVO_ops/"></a></td></tr>
+<tr><th>1993</th><td><a href="OldAVO_ops/1993_field_summary.html">*</a></td><td><a href="OldAVO_ops/1995FieldPlans.html"></a></td></tr>
+<tr><th>1992</th><td><a href="OldAVO_ops/1992_field_summary.html">*</a></td><td><a href="OldAVO_ops/1995FieldPlans.html"></a></td></tr>
+<tr><th>1991</th><td><a href="OldAVO_ops/1991_field_summary.html">*</a></td><td><a href="OldAVO_ops/1995FieldPlans.html"></a></td></tr>
+<tr><th>1990</th><td><a href="OldAVO_ops/1990_field_summary.html">*</a></td><td><a href="OldAVO_ops/1995FieldPlans.html"></a></td></tr>
+
+
+</table>
+
+<hr>
+<h3>Other links</h3>
+<a href="avo_ops.html">AVO ops</a><br>
+<a href="phones.html">Useful phone line info</a>
+
+</body>
+</html>
+

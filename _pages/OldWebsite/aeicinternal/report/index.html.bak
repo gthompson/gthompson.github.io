@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>AEIC Internal Reports</title>
+<link href="report.css" rel="stylesheet" />
+</head>
+
+<body>
+<h1>AEIC Internal Reports</h1>
+<p>This report series is intended to provide a simple mechanism for documenting AEIC knowledge in a way that is citable. Its intended mainly for documenting systems and projects that form part of AEIC operations. This sort of knowledge is normally too detailed to be of interest to research journals, but nevertheless plays an important part in AEIC's work and may be of value to other organisations.</p>
+<p>If you wish to write an internal report, go to <a href="templates.html">Write a new report</a></p>
+<p>If you already have something that you think should be included in the internal report series, email it to <a href="mailto:glenn@giseis.alaska.edu">glenn</a> and it will be added.</p>
+
+<hr/>
+<h3>Internal Reports</h3>
+<table border="1">
+<tr><th>Report Number</th><th>Title</th><th>Authors</th><th>Documents</th></tr>
+<tr><td>1998-01*</td><td>Creating a FrameMaker Macro from a Perl Script</td><td>Lindquist, K.</td><td><a href="whitepapers/KGL_whitepaper_1998_001.pdf">PDF</a></td></tr>
+<tr><td>1999-01*</td><td>Antelope upgrade from 4.1 to 4.2u</td><td>Lindquist, K.</td><td><a href="whitepapers/KGL_whitepaper_1999_001.pdf">PDF</a></td></tr>
+<tr><td>1999-02*</td><td>Documentation for new AEIC Response Software</td><td>Lindquist, K.</td><td><a href="whitepapers/KGL_whitepaper_1999_002.pdf">PDF</a></td></tr>
+<tr><td>2001-01*</td><td>Error Ellipses for AEIC Earthquake Catalogs</td><td>Lindquist, K.</td><td><a href="whitepapers/KGL_whitepaper_2001_001.pdf">PDF</a></td></tr>
+<tr><td>2001-02*</td><td>Towards a Successful Anchorage Strong Motion Network</td><td>Lindquist, K.</td><td><a href="whitepapers/KGL_whitepaper_2001_002.pdf">PDF</a></td></tr>
+<tr><td>2001-03*</td><td>Organization of Segmented Data at AEIC</td><td>Lindquist, K.</td><td><a href="whitepapers/KGL_whitepaper_2001_003.pdf">PDF</a></td></tr>
+<tr><td>2001-04*</td><td>Antelope upgrade from 4.3u to 4.4u</td><td>Lindquist, K.</td><td><a href="whitepapers/KGL_whitepaper_2001_004.pdf">PDF</a></td></tr>
+<tr><td>2002-01*</td><td>Antelope upgrade from 4.4u-beta to 4.4</td><td>Lindquist, K.</td><td><a href="whitepapers/KGL_whitepaper_2002_001.pdf">PDF</a></td></tr>
+<tr><td>2007-01</td><td>Maintaining the AEIC Master Stations Database</td><td>Thompson, G., LaFevers, M.</td><td><a href="2007-01/IR2007-01.pdf">PDF</a></td></tr>
+
+<tr><td>2007-02</td><td>The Antelope-QDDS Interface</td><td>Thompson, G., Robinson, M.</td><td><a href="2007-02/IR2007-02.pdf">PDF</a></td></tr>
+
+<tr><td>2008-01</td><td>Maintaining the AEIC Master Stations Database</td><td>Thompson, G., LaFevers, M.</td><td><a href="2008-01/IR2008-01.pdf">PDF</a></td></tr>
+<tr><td>2008-02</td><td>The AEIC ShakeMap system: Technical Report</td><td>Thompson, G., Martirosyan, A., Robinson, M., Hansen, R.</td><td><a href="2008-02/IR2008-02.pdf">PDF</a>&nbsp;<a href="2008-02/index.html">Other</a></td></tr>
+<tr><td>2008-03</td><td>The Trans-Alaska Pipeline ShakeMap system</td><td>Thompson, G., Martirosyan, A., Robinson, M., Hansen, R.</td><td><a href="2008-03/IR2008-03.pdf">PDF</a>&nbsp;<a href="2008-03/index.html">Other</a></td></tr>
+<tr><td>2008-04</td><td>Delivery of Earthquake Notification Systems to Emergency Managers in Alaska</td><td>Thompson, G., Hansen, R., Stachnik, J., Robinson, M.</td><td><a href="2008-04/IR2008-04.pdf">PDF</a></td></tr>
+<tr><td>2008-05</td><td>The iMac Earthquake Notification System: User Guide</td><td>Thompson, G.</td><td><a href="2008-05/IR2008-05.pdf">PDF</a></td></tr>
+
+</table>
+<p>* These are from Kent Lindquist's "Whitepaper" series. Its useful to document all old internal reports here, regardless of format.
+</body>
+</html>

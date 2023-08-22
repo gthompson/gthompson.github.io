@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN"><HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+<META NAME="GENERATOR" CONTENT="Adobe FrameMaker 6.0/HTML Export Filter">
+<LINK REL="STYLESHEET" HREF="weekly_report_manual.css" CHARSET="ISO-8859-1" TYPE="text/css">
+<TITLE> AEIC Weekly Seismicity Report Procedure:</TITLE>
+</HEAD>
+<BODY BGCOLOR="#ffffff">
+<DIV>
+<H1 CLASS="Title">
+<A NAME="pgfId-998197"></A>AEIC Weekly Seismicity Report Procedure:</H1>
+<P CLASS="Body">
+<A NAME="pgfId-998304"></A>Weekly reports are archived in /Seis/reports/weekly partition, <BR>
+with YEAR/week_YEAR_MO_DA subdirectories. </P>
+<P CLASS="Body">
+<A NAME="pgfId-998335"></A>The master copy of this help file is located in <BR>
+/Seis/reports/weekly/weekly_report_manual.fm. Update this file with the changes and also replace this manual on AEIC internal website by copying new html and pdf files to:</P>
+<P CLASS="Body">
+<A NAME="pgfId-998331"></A>/usr/local/Mosaic/Seis/AEIC/internal/weekly_report_manual.html</P>
+<P CLASS="Body">
+<A NAME="pgfId-999335"></A>/usr/local/Mosaic/Seis/AEIC/internal/weekly_report_manual.pdf</P>
+<P CLASS="Body">
+<A NAME="pgfId-998199"></A>&nbsp;</P>
+<P CLASS="Body">
+<A NAME="pgfId-998200"></A>1. Change directory to:</P>
+<P CLASS="Body">
+<A NAME="pgfId-998299"></A>cd /Seis/reports/weekly/YEAR</P>
+<P CLASS="Body">
+<A NAME="pgfId-998201"></A>&nbsp;</P>
+<P CLASS="Body">
+<A NAME="pgfId-998202"></A>2. Create a new directory for the week you are reporting, following the format of the other weeks:</P>
+<P CLASS="Body">
+<A NAME="pgfId-998213"></A>mkdir week_YEAR_MO_DA</P>
+<P CLASS="Body">
+<A NAME="pgfId-998214"></A>&nbsp;</P>
+<P CLASS="Body">
+<A NAME="pgfId-998215"></A>3. Change into the new directory that you have just created:</P>
+<P CLASS="Body">
+<A NAME="pgfId-998318"></A>cd week_YEAR_MO_DA</P>
+<P CLASS="Body">
+<A NAME="pgfId-998216"></A>&nbsp;</P>
+<P CLASS="Body">
+<A NAME="pgfId-998217"></A>4. On the command line type the following: </P>
+<P CLASS="Body">
+<A NAME="pgfId-998320"></A>weekly_report_tool</P>
+<P CLASS="Body">
+<A NAME="pgfId-998219"></A>The weekly report tool GUI will pop up on your screen.</P>
+<P CLASS="Body">
+<A NAME="pgfId-998220"></A>&nbsp;</P>
+<P CLASS="Body">
+<A NAME="pgfId-998221"></A>5. In the window on top, type in the Start Time and End Time for the week you are reporting, following the format YEAR_MO_DA. Enter a minimum magnitude (Min. Ml) of 3.5. This will determine the minimum magnitude of events that will be included in the weekly highlights.<BR>
+Note: In case of an active aftershock sequence with tens of aftershocks over M3.5, the magnitude cut-off may be increased to 4.0.</P>
+<P CLASS="Body">
+<A NAME="pgfId-998226"></A>&nbsp;</P>
+<P CLASS="Body">
+<A NAME="pgfId-998227"></A>6. Click on each button in the weekly_report_tool GUI in sequence, beginning with &quot;Concatenate daily databases&quot;. The concatenation process may take some time, be patient. </P>
+<P CLASS="Body">
+<A NAME="pgfId-998358"></A>&nbsp;</P>
+<P CLASS="Body">
+<A NAME="pgfId-998359"></A>7. Next, click on &quot;Review ./weeklydb with dbe&quot;, open origin table and make sure all seven days are in the database. If there are day(s), make sure you have entered correct start and end time and that all days have been processed and the database tables for the whole week are present in /Seis/processing/analyzed/YEAR_MO. In case new weeklydb needs to be constructed, all previous weeklydb tables need to be removed manually via command: rm weeklydb*</P>
+<P CLASS="Body">
+<A NAME="pgfId-998229"></A>&nbsp;</P>
+<P CLASS="Body">
+<A NAME="pgfId-998230"></A>8. Click the &quot;Generate maps, highlights and event listing&quot; button, this may take some time to complete. When the first map appears on your screen, allow it to finish drawing, then move your mouse pointer into the map window and type Ctrl-c to close the window. A second map window will automatically appear. Again, wait for it to finish drawing and then type Ctrl-c.</P>
+<P CLASS="Body">
+<A NAME="pgfId-998235"></A>&nbsp;</P>
+<P CLASS="Body">
+<A NAME="pgfId-998236"></A>9. Next click on &quot;Open Framemaker to edit weekly highlights&quot; button, FrameMaker will automatically start up. Move the pointer into the Framemaker window, highlight the text &quot;Insert weekly highlights here&quot;, then type Ctrl-1 to replace that text and paste in the text of the weekly highlights. Take the clip-board with the information release copies and for each event that was felt during the week you are reporting, you mush add the language of the felt report to the weekly highlights.</P>
+<P CLASS="Body">
+<A NAME="pgfId-998379"></A>Events less than M3.5 that were released must also be included in the weekly highlights. For each of these events you must type in the entire text of the event summary, following the same format as the other highlight events. Keep in mind that the order of events in the weekly highlights is of descending magnitude, so be sure to place these smaller felt events in the proper order relative to the other summarized events.</P>
+<P CLASS="Body">
+<A NAME="pgfId-998380"></A>When you have finished editing the events in the weekly highlights, be sure to enter your name after &quot;Prepared by:&quot; at the top of the highlights.</P>
+<P CLASS="Body">
+<A NAME="pgfId-998240"></A>&nbsp;</P>
+<P CLASS="Body">
+<A NAME="pgfId-998383"></A>10. Save the Weekly Highlights file as Framemaker document (File-&gt;Save) and as text file:<BR>
+-&gt;File<BR>
+-&gt;Save as<BR>
+-&gt;Format=&quot;Text Only&quot;<BR>
+-&gt;File Name=&quot;weekly_highlights.txt&quot; (you must manually change the file extension to .txt)<BR>
+-&gt;Save</P>
+<P CLASS="Body">
+<A NAME="pgfId-998384"></A>&nbsp;</P>
+<P CLASS="Body">
+<A NAME="pgfId-998252"></A>11. With the pointer in the Framemaker window, type Ctrl-3 to print the weekly highlights, then close FrameMaker. Or you can do it through File-&gt;Print option.</P>
+<P CLASS="Body">
+<A NAME="pgfId-998265"></A>&nbsp;</P>
+<P CLASS="Body">
+<A NAME="pgfId-998266"></A>12. Click on &quot;Print seismicity maps on lexaeic&quot;.</P>
+<P CLASS="Body">
+<A NAME="pgfId-998267"></A>&nbsp;</P>
+<P CLASS="Body">
+<A NAME="pgfId-998480"></A>13. Click on &quot;Update AEIC weekly report website.&quot;  This will automatically update the weekly report section of the AEIC website. Go to AEIC weekly report webpage and make sure maps, highlights, listings, and archive have all been updated <BR>
+(http://www.aeic.alaska.edu/html_docs/reports.html).</P>
+<P CLASS="Body">
+<A NAME="pgfId-998270"></A>&nbsp;</P>
+<P CLASS="Body">
+<A NAME="pgfId-998271"></A>14. Click &quot;Update AEIC tracking database&quot;.</P>
+<P CLASS="Body">
+<A NAME="pgfId-998410"></A>&nbsp;</P>
+<P CLASS="Body">
+<A NAME="pgfId-998411"></A>15. When necessary, do &quot;Compute station statistics&quot;. This will take several minutes to complete. When finished, several windows will appear showing the station statistics plots. Move the pointer onto the top window and click `Ctrl-C' to close. If you wish to view or print the station statistics reports, click on the last two buttons.</P>
+<P CLASS="Body">
+<A NAME="pgfId-998272"></A>&nbsp;</P>
+<P CLASS="Body">
+<A NAME="pgfId-998273"></A>16. Collect the printed highlights, maps, and station statistics plots from the printers and present them at the weekly meeting and/or leave them on the lunch table. Prepare the report for the weekly meeting following format:<BR>
+- Total number of events located<BR>
+- Total number of events with magnitudes 4.0 and greater, how many of those are 5.0 and greater, if any.<BR>
+- Total number of felt events with the min-max magnitude range of the felt events<BR>
+- Largest event of the week: date, location, magnitude<BR>
+- Station statistics, if necessary: Note station names for magnitudes that are too high (magnitude residuals less than -0.5) and too low (magnitude residuals greater than 0.5).</P>
+<P CLASS="Body">
+<A NAME="pgfId-998417"></A> You're done!</P>
+</DIV>
+</BODY>
+</HTML>

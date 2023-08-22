@@ -1,0 +1,127 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN"><HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+<META NAME="GENERATOR" CONTENT="Adobe FrameMaker 6.0/HTML Export Filter">
+<LINK REL="STYLESHEET" HREF="monthly_catalog_manual.css" CHARSET="ISO-8859-1" TYPE="text/css">
+<TITLE> How to make monthly earthquake catalog</TITLE>
+</HEAD>
+<BODY BGCOLOR="#ffffff">
+<DIV>
+<H1 CLASS="Title">
+<A NAME="pgfId-998197"></A>How to make monthly earthquake catalog</H1>
+<P CLASS="Body">
+<A NAME="pgfId-998368"></A>1) Concatinate daily databases into monthly database and remove daily databases:<BR>
+cd /Seis/processing/analyzed/YEAR_MO<BR>
+aeic_dbconcat_event analyzed_YEAR_MO_01 .... analyzed_YEAR_MO_31 analyzed_YEAR_MO<BR>
+mkdir db_daily<BR>
+mv analyzed_YEAR_MO_DA.* db_daily<BR>
+mv analyzed_YEAR_MO_DA db_daily</P>
+<P CLASS="Body">
+<A NAME="pgfId-998207"></A>2) Review monthly database:<BR>
+cd /Seis/processing/qc/YEAR_MO<BR>
+cp /Seis/processing/analyzed/YEAR_MO/analyzed_YEAR_MO.* .<BR>
+This is assuming that quality control of processed events was done previously.</P>
+<P CLASS="Body">
+<A NAME="pgfId-998371"></A>3) Download PDE catalogs:<BR>
+cd /Seis/catalogs/pde/Raw<BR>
+ftp hazards.cr.usgs.gov (anonymous log-in, e-mail as password)<BR>
+cd weekly<BR>
+type binary<BR>
+get ehdfYEARNNw.dat<BR>
+quit</P>
+<P CLASS="Body">
+<A NAME="pgfId-998230"></A>4) Convert weekly PDE's into origin tables:<BR>
+pde2origin pde_file dbname</P>
+<P CLASS="Body">
+<A NAME="pgfId-998238"></A>5) Update pde_YEAR database. <BR>
+If it's continuation of a year, add new tables to existing database:<BR>
+dbmerge dbnew dbexisting<BR>
+For new year just concatinate new databases:<BR>
+aeic_dbconcat db1 db2 ... dbout</P>
+<P CLASS="Body">
+<A NAME="pgfId-998239"></A>6) Combine PDE and AEIC databases. Unpdate magnitudes.<BR>
+Subset updated new database for your month and region of Alaska (49-72N, 165E-130W) and save it as a new database in /Seis/processing/qc/YEAR_MO. Identify  missing PDE solutions and add those to the analyzed database (you can remove duplicate solutions from the saved PDE origin table and then concatinate updated PDE with the existing analyzed database). Make sure there are rows for new PDE events in event table and evids in origin table, edit it manually if necessary. Also, update mb's and Ms's from PDE and Harvard catalogs <BR>
+(http://www.seismology.harvard.edu/CMTsearch.html). </P>
+<P CLASS="Body">
+<A NAME="pgfId-998234"></A>7) Update /Seis/catalogs/aeic/ depository.<BR>
+Call final database aeic_YEAR_MO and move it into /Seis/catalogs/aeic/YEAR_MO. You may need to create YEAR_MO directory first. <BR>
+cd /Seis/catalogs/aeic<BR>
+mkdir YEAR_MO<BR>
+cd YEAR_MO<BR>
+mv /Seis/processing/qc/YEAR_MO/aeic_YEAR_MO.* .<BR>
+Change write permissions on it: <BR>
+chmod a-w aeic_YEAR_MO.*</P>
+<P CLASS="Body">
+<A NAME="pgfId-998253"></A>8) Create catalog:<BR>
+cd /Seis/reports/catalogs<BR>
+mkdir YEAR_MO<BR>
+cd YEAR_MO<BR>
+Copy one of the previous catalogs to use as a template:<BR>
+cp ../YEAR_MM/catalog_YEAR_MM.fm catalog_YEAR_MO.fm</P>
+<P CLASS="Body">
+<A NAME="pgfId-998268"></A>9) Create maps and event lists:<BR>
+aeic_db2catalog /Seis/catalogs/aeic/YEAR_MO/aeic_YEAR_MO<BR>
+(click&quot;x&quot; on figure 2 for cross-section, hit &quot;return&quot; in  x-window where you run aeid_db2catalog to make cross-section figure, click &quot;q&quot; on cross-section figure to exit out of it; close all figures with [CTRL]-C)</P>
+<P CLASS="Body">
+<A NAME="pgfId-998271"></A>10) Create summary figure:<BR>
+db2zmap /Seis/catalogs/aeic/YEAR_MO/aeic_YEAR_MO (you may need to copy db2zmap program from /home/natasha/bin)<BR>
+Open Matlab, start ZMAP:<BR>
+matlab -nodesktop<BR>
+start_zmap<BR>
+click &quot;Create or modify *.mat Datafile&quot;<BR>
+click &quot;EQ Datafile&quot;<BR>
+&quot;Choose a data format&quot; -&gt; &quot; ASCII columns&quot; -&gt; &quot;Load&quot;<BR>
+Enter directory &quot;/Seis/reports/catalogs/YEAR_MO&quot;<BR>
+Enter file name &quot;zmap_list&quot;<BR>
+Click &quot;Open&quot; -&gt; Click &quot;Go&quot; <BR>
+ZMAP will make a map. In Matlab command window type &quot;sumaeicmonthly2&quot;. It will make summary plot. Save this plot as summary_plot.epsi:<BR>
+print -noui -depsc2 /Seis/reports/catalogs/YEAR_MO/summary_plot.epsi<BR>
+Quit out of ZMAP</P>
+<P CLASS="Body">
+<A NAME="pgfId-998298"></A>11) Edit catalog with Frame Maker<BR>
+- replace cover picture and caption<BR>
+- make mini-maps for highlights and write short descriptions of a couple events (see examples in other catalogs)<BR>
+- insert monthly_list, monthly_m4, and monthly_quarry (File -&gt; Import -&gt; Use &quot;Copy into Document&quot; option -&gt; Use &quot;Convert from Text&quot; option-&gt; Use &quot;Treat Each Line As a Paragraph&quot; option<BR>
+- add felt reports (look through releases)<BR>
+- edit fig2b.ps with IslandDraw  (ungroup, remove extra-symbols in the left-bottom corner, group, position in the center of the page) and save as fig2b.epsi</P>
+<P CLASS="Body">
+<A NAME="pgfId-998309"></A>12) Print hard copy of the catalog to present at the Lab meeting and leave on the lunch table for review.</P>
+<P CLASS="Body">
+<A NAME="pgfId-998310"></A>13) Update web depository.<BR>
+Save as PDF file and move it to:<BR>
+cp catalog_YEAR_MO.pdf /usr/local/Mosaic/Seis/monthly_reports/.<BR>
+Update monthly_reports.html (/usr/local/Mosaic/Seis/html_docs/). You have to be part of Mosaic group to be able to do this. Otherwise, ask someone who can.</P>
+<P CLASS="Body">
+<A NAME="pgfId-998314"></A>14) Update CNSS depository:<BR>
+cd /Seis/catalog/cnss<BR>
+db2cnss /Seis/catalogs/aeic/YEAR_MO/aeic_YEAR_MO cnss_YEAR_MO<BR>
+rsh megathrust -l catalog <BR>
+(ask Mitch to update login list with your username:host for catalog:megathrust login)<BR>
+cd /Seis/catalog/cnss<BR>
+submit_cnss YEARMO cnss_YEAR_MO<BR>
+exit</P>
+<P CLASS="Body">
+<A NAME="pgfId-998337"></A>15) Update aeic_tracking_database:<BR>
+dbe -e /Seis/processing/tracking_database/aeic_analysis.months<BR>
+For your month change &quot;status&quot; to &quot;done&quot; and &quot;aeic_catalog&quot; to &quot;created&quot;.</P>
+<P CLASS="Body">
+<A NAME="pgfId-998358"></A>16) Update Total database:<BR>
+cd /Seis/catalogs/aeic<BR>
+aeic_dbconcat_event Total/Total YEAR_MO/aeic_YEAR_MO Total_new<BR>
+(dbmerge program won't work for some reason)<BR>
+Check Total_new database, make sure it's OK, and replace Total database with Total_new.</P>
+<P CLASS="Body">
+<A NAME="pgfId-998362"></A>17) Update uptodate database for the catalog websearch:<BR>
+cp Total.origin /usr/local/apache/htmldocs/summary_database/uptodate.origin<BR>
+cp Total.origerr /usr/local/apache/htmldocs/summary_database/uptodate.origerr<BR>
+cp Total.event /usr/local/apache/htmldocs/summary_database/uptodate.event</P>
+<P CLASS="Body">
+<A NAME="pgfId-998341"></A>18) Update db2catalog.html with new end date (/usr/local/Mosaic/Seis/html_docs/). Again, you have to be on Mosaic group to be able to do this.</P>
+<P CLASS="Body">
+<A NAME="pgfId-998374"></A>19) You are done now!</P>
+<P CLASS="Body">
+<A NAME="pgfId-998305"></A>&nbsp;</P>
+</DIV>
+</BODY>
+</HTML>

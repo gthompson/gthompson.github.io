@@ -1,0 +1,129 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  	<title>Glenn Thompson - Publications</title>
+  	 <link rel="stylesheet" type="text/css" href="glenn.css" media="all" />
+  	 
+</head>
+<body>
+	<?php
+		include("topmenu.html");
+	?>
+
+	<div id="content">
+		<h2>Publications</h2>
+		<ol id="yearmenu">
+		<li><a href="#present">2005&ndash;present</a></li>
+		<li><a href="#04">2000&ndash;04</a></li>
+		<li><a href="#99">1995&ndash;99</a></li>
+		<li><a href="#94">1990&ndash;94</a></li>
+		</ol>
+		
+		<div id="publications">
+		<h3 id="present">2005&ndash;present</h3>
+		<ul>
+		
+		       <li>Thompson, G.., West., M. E., Real-time Detection of Earthquake Swarms at Redoubt Volcano, 2009
+Seism. Res. Lett., 81, 3, 505-513, DOI: 10.1785/gssrl.81.3.505, 2010.<a href="Papers/2010Thompson.pdf" class="pdf">&nbsp;</a></li>
+
+                       <li>Luckett, R., Baptie, B., Ottemoller, L., Thompson, G., Seismic Monitoring of the Soufriere Hills Volcano, Monts
+errat, Seism. Res. Lett., 78, 2, 192-200, DOI: 10.1785/gssrl.78.2.192, 2007.<a href="Papers/2007Luckett.pdf" class="pdf">&nbsp;</a></li>
+
+                        <li>Taron, J., Elsworth, D., Thompson, G., Voight, B., Mechanisms for Rainfall-Concurrent Lava Dome Collapses at So
+ufriere Hills Volcano, 2000-2002. J. Volc. Geotherm. Res., 160, 195-209, 2007.<a href="Papers/2007Taron.pdf" class="pdf">&nbsp;</a></li>
+
+                        <li>Langer, H., Falsaperla, S., Powell., T., Thompson, G., Automatic classification and a-posteriori analysis of se
+ismic event identification at Soufriere Hills Volcano, Montserrat. J. Volcanol. Geotherm. Res., 153, 1-2, 1-10, 2006.<a href="Papers/2006Langer.pdf" class="pdf">&nbsp;</a></li>
+
+                        <li>Jaquet, O., Carniel, R., Sparks, R.S.J., Thompson, G., Namar, R., Di Cecca, M., DEVIN: A forecasting approach u
+sing stochastic methods applied to the Soufriere Hills Volcano, J. Volcanol. Geotherm. Res., 153, 97-111, 2006.<a href="Papers/2006Jacquet.pdf" class="pdf">&nbsp;</a></li>
+
+                </ul>
+                                <h3 id="04">2000&ndash;04</h3>
+                <ul>
+                        <li>Elsworth, D., Voight, B., Thompson, G., Young, S. R., Thermal-hydrologic mechanism for rainfall-triggered colla
+pse of lava domes. Geology, 32, 11, 969-972, 2004.<a href="Papers/2004Elsworth.pdf" class="pdf">&nbsp;</a></li>
+
+                        <li>Carn, S. A., Watts, R., Thompson, G., Norton, G. E., Anatomy of a lava dome collapse: the March 20, 2000 event
+at the Soufriere Hills volcano, Montserrat. J. Volcanol. Geotherm. Res., 131, 241-264, 2004.<a href="Papers/2004Carn.pdf" class="pdf">&nbsp;</a><li>
+
+                        <li>Edmonds, M., Oppenheimer, C. M., Pyle, D. M., Herd R. A., and Thompson, G., Trends in SO2 fluxes 1995-2001 at S
+oufriere Hills Volcano, Montserrat, West Indies and their implications for changes in conduit permeability, hydrothermal interaction and de
+gassing regime. J. Volcanol. Geotherm. Res., 124 (1-2), 23-43, 2003.<a href="Papers/2003Edmonds.pdf" class="pdf">&nbsp;</a></li>
+
+                        <li>Langer, H., Falsaperla, S., Thompson, G., Application of Artificial Neural Networks for the classification of t
+he seismic transients at Soufriere Hills volcano, Montserrat. Geophys. Res. Letters., 30, 21, 2090, 2003.<a href="Papers/2003Langer.pdf" class="pdf">&nbsp;</a></li>
+
+                        <li>Matthews, A. J., Barclay, J., Carn, S., Thompson, G., Alexander, J., Herd, R. A., and Williams, C., Rainfall-in
+duced volcanic activity on Montserrat. Geophys. Res. Lett., 29, 13, 2002.<a href="Papers/2002Matthews.pdf" class="pdf">&nbsp;</a></
+li>
+
+                        <li>Jolly, A. D., Thompson, G., and Norton, G. E., Locating pyroclastic flows on Soufriere Hills Volcano, Montserra
+t, West Indies, using amplitude signals from high dynamic range instruments. J. Volc. Geotherm. Res., 118, 299-318, 2002.<a href="Papers/2002Jolly.pdf" class="pdf">&nbsp;</a></li>
+
+                        <li>Thompson, G., S.R. McNutt, and G. Tytgat, Three Distinct Regimes of Volcanic Tremor Associated with Eruptions o
+f Shishaldin Volcano, Alaska, April 1999. Bull. Volcanol., 10.1007/s00445-002-0228-z, 2002.<a href="Papers/2002Thompson.pdf" class="pdf">&nbsp;</a></li>
+
+<!-- <a href="http://www.springerlink.com/content/9hd
+xc8bpkhaxp51c/fulltext.pdf" class="pdf">&nbsp;</a> --> 
+		</ul>
+		<h3 id="99">1995&ndash;99</h3>
+		<ul>
+			<li>Thompson, G., Modelling of seismo-volcanic sources. PhD thesis, University of Leeds, UK, 1999.<a href="phd/index.html" class="pdf">&nbsp;</a></li>
+	    </ul>
+		<h3 id="94">1990&ndash;94</h3>
+		<ul>
+			<li>Thompson, G., Forward modelling of bottom-simulating reflectors at the Makran accretionary prism. MSc thesis, University of Durham, UK, 1994. </li>
+	    </ul>
+
+		</div>
+		</div>
+<p id="footer">
+<SCRIPT language="JavaScript" type="text/javascript">
+//  update - from http://rainbow.arch.scriptmania.com/scripts
+<!--
+function getLongDateString()
+{	//method defined on class Date.
+	//Returns a date string of the form: Day DD Month,YYYY
+	//(e.g. Sunday 27 September, 1998)
+	monthNames = new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+dayNames = new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+	dayOfWeek = this.getDay();
+	day = dayNames[dayOfWeek];
+	dateOfMonth = this.getDate();
+monthNo = this.getMonth();
+	month = monthNames[monthNo];
+year = this.getYear();
+	if (year < 2000)
+year = year + 1900;
+dateStr = day+" "+dateOfMonth+" "+month+", "+year;
+	return dateStr;
+}
+//register the  method in the class Date
+Date.prototype.getLongDateString=getLongDateString;
+
+function DocDate()
+{ //return the document modification date (excl.time)
+//as a string
+	DateTimeStr = document.lastModified;
+	secOffset = Date.parse(DateTimeStr);
+	if (secOffset == 0 || secOffset == null) //Opera3.2
+			 dateStr = "Unknown";
+	else
+	{
+		aDate = new Date();
+		aDate.setTime(secOffset);
+		//use method defined above
+		datestr = aDate.getLongDateString();
+	}
+	return dateStr;
+}
+
+document.write("Last Update: ");
+document.writeln(DocDate(),"");
+// -->
+</script>
+	</p>
+</div>
+</body>
+</html>

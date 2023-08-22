@@ -1,0 +1,206 @@
+body {
+background:#F0F0F0 none repeat scroll 0% 50%;
+color:#333333;
+font-family:Cambria,Georgia,Times,Times New Roman,serif;
+margin:0pt;
+padding:0pt;
+}
+
+#container {
+}
+
+#navigation {
+background:#528548 none repeat scroll 0% 50%;
+border-top:1px solid #6B98AD;
+font-family:Verdana,Tahoma,Geneva,sans-serif;
+font-size:14px;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin:0pt;
+padding:3px 0pt 3px 100px;
+}
+
+#navigation li {
+display:inline;
+margin:0px;
+padding:0px;
+}
+
+#navigation a {
+color:#E1EBDF;
+font-family:Verdana,Tahoma,Geneva,sans-serif;
+font-weight:normal;
+padding:3px 4px;
+text-decoration:none;
+}
+
+#navigation a:hover {
+background:#3E6B35 none repeat scroll 0% 50%;
+color:white;
+}
+
+#navigation a:active {
+}
+
+#navigation a:visited {
+}
+
+a#selected {
+background:#F0F0F0 none repeat scroll 0% 50%;
+border:medium none #F0F0F0;
+color:#333333;
+font-weight:bold;
+}
+
+a#selected:hover {
+background:#F0F0F0 none repeat scroll 0% 50%;
+border:medium none #F0F0F0;
+color:#333333;
+}
+
+#content {
+margin-bottom:5em;
+margin-left:100px;
+width:1000px;text-align:left;
+}
+
+#footer {
+background:#36647A none repeat scroll 0% 50%;
+clear:both;
+color:#DBDBDB;
+font-size:14px;
+margin:0px;
+padding:10px 100px 3px;
+}
+
+p {
+line-height:130%;
+margin:0pt 0pt 1em;
+}
+
+#namebar {
+background:#36647A url(volcano.gif) no-repeat scroll left bottom;
+color:white;
+font-family:Palatino,Palatino Linotype,Hoefler Text,Times,Times New Roman,serif;
+font-size:32px;
+line-height:1em;
+margin:0pt;
+padding:13px 10px 5px 100px;
+}
+
+h1 a{
+color:white;
+}
+#namebar {}
+#namebar2 {
+background:#36647A url(http://www.avo.alaska.edu/images/logos/logo_avo_transparent_new.jpg) no-repeat scroll left top;
+color:white;
+font-family:Palatino,Palatino Linotype,Hoefler Text,Times,Times New Roman,serif;
+font-size:18px;
+line-height:1em;
+margin:0pt;
+padding:13px 10px 5px 100px;text-align:center;
+}
+h2 {
+font-family:Palatino,Palatino Linotype,Hoefler Text,Times,Times New Roman,serif;
+margin-bottom:0.3em;
+}
+
+h3 {
+font-family:Palatino,Palatino Linotype,Hoefler Text,Times,Times New Roman,serif;
+margin-bottom:0.3em;
+}
+
+strong {
+}
+
+em {
+}
+
+/*img {
+background:white none repeat scroll 0% 50%;
+border:1px solid #DBDBDB;
+margin-left:620px;
+padding:5px;
+position:absolute;
+}*/
+#portrait img {
+background:white none repeat scroll 0% 50%;
+border:1px solid #DBDBDB;
+margin-left:620px;
+padding:5px;
+position:absolute;
+}
+a {
+color:#528548;
+font-weight:bold;
+text-decoration:none;
+}
+
+a:hover {
+text-decoration:underline;
+}
+
+a:active {
+}
+
+a:visited {
+color:Gray;
+text-decoration:underline;
+}
+
+ul {
+padding:0px;
+}
+
+li {
+line-height:130%;
+margin:0.2em 0pt;text-indent:50px;
+}
+
+#publications {
+}
+
+#publications ul {
+border-color:#CCCCCC rgb(204, 204, 204) -moz-use-text-color;
+border-style:solid solid none;
+border-width:1px 1px medium;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin:0pt;
+padding:0pt;
+}
+
+#publications li {
+border-bottom:1px solid #CCCCCC;
+padding:3px;text-align:left;
+}
+
+#publications h3 {
+background:#36647A none repeat scroll 0% 50%;
+border-color:#CCCCCC rgb(204, 204, 204) -moz-use-text-color;
+border-style:solid solid none;
+border-width:1px 1px medium;
+color:white;
+margin:0px;
+padding:3px;
+}
+
+#abstracts h3 {
+border-top:1px solid #BBBBBB;
+padding-top:1em;
+}
+
+#clear{
+clear:both;
+display:block;
+}
+
+.pdf {
+background:url(pdf.gif) no-repeat right;
+padding-right:40px;
+}
+
+#yearmenu ol {text-align:left;}

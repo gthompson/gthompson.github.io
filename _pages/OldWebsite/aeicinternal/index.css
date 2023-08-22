@@ -1,0 +1,53 @@
+BODY{
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	background-color:#FFFFFF;
+	font-size:small;}
+A:link {color: #993300;}
+A:visited {color: #CC6633;}
+A:active {color: #FF0000;}
+
+
+
+.nametx { color: #000000; font-size: medium; font-family: Arial, Verdana, Helvetica, sans-serif }; 
+.namebox{
+	background-color:#FFFFFF;
+	text-align:left;}
+
+.buttontable {border-color:#ddFFdd;}
+.offbuttbox {background-color:#ddddff;}
+.onbuttbox {background-color:#FFdddd;}
+.butttx{
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	text-decoration:none;
+	color:#996633;
+	text-align:center;
+	font-size:x-small;};
+.backdrop {background-color:#FFFFCC;}
+
+ 
+
+.td1 {color:#000000; text-align:left;}
+.tx1 {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	text-decoration:none;
+	font-size:small;}
+.tx1dec {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size:small;}
+.tx2 {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	text-decoration:none;
+	font-size:medium;}
+
+.footer {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size:x-small;
+	color:#000000;
+	text-align:right;
+ 	font-style:italic;}
+.tx1space {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	text-decoration:none;
+	line-height:1.0;
+	font-size:small;}
+.nodec {text-decoration:none;}

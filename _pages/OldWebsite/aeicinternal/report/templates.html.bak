@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>AEIC Internal Reports</title>
+<link href="report.css" rel="stylesheet" />
+</head>
+
+<body>
+<h1>AEIC Internal Reports</h1>
+<p>Download one of the templates below and begin writing. When its done, email to <a href="mailto:glenn@giseis.alaska.edu">glenn</a> and it will then be posted on this webpage. If there are other documents related to the report you wish to post, email those also.</p> 
+<p><a href="templates.html">Write a new report</a></p>
+<p>Templates for the AEIC internal report series are available in the following formats:</p>
+<ul>
+<li>Word 2007 Document<a href="IRYYYY-NN.docx">.docx</a></li>
+<li>Word 2003 Document<a href="IRYYYY-NN.doc">.doc</a></li>
+<li>StarOffice Writer Document<a href="IRYYYY-NN.sxw">.sxw</a></li>
+<li>StarOffice Writer Template<a href="IRYYYY-NN.stw">.stw</a></li>
+<li>OpenOffice Writer Document<a href="IRYYYY-NN.odt">.odt</a></li>
+<li>FrameMaker Document<a href="IRYYYY-NN.fm">.fm</a></li>
+</ul>
+
+
+</body>
+</html>

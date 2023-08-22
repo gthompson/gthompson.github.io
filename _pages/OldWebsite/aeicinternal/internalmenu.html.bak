@@ -1,0 +1,72 @@
+<html>
+<head>
+<title>AEIC Internal Page</title>
+<link href="internalmenu.css" rel="stylesheet">
+</head>
+<body>
+<img src="aeic_logo_small.gif">
+<p><i>AEIC Internal</i><p/>
+<ul class="makeMenu">
+  <li><a href="http://www.aeic.alaska.edu" target="_top">Public page</a></li>
+  <li><a href="beeperDuty/" target="main">Beeper Duty</a>
+     <ul>
+	<li><a href="beeperDuty/manual.pdf" target="main">Manual</a></li>
+	<li><a href="beeperDuty/beeper_duty_schedule.html" target="main">Beeper Duty  Schedule</a></li>
+	<li><a href="beeperDuty/earthquake_strengths.html" target="main">Earthquake Strengths</a></li>
+	<li><a href="beeperDuty/update_voice_message.html" target="main">Update voice message</a></li>
+<!--	<p><a href="http://www.personal-page.com">Personal  Page</a> Lab Beeper # 496-3588</p>
+	<p><a href="http://www.dataoncall.com">DataOncall e-fax services</a></p> -->
+	<li><a href="http://www.aeic.alaska.edu/cgi-bin/release_info.pl" target="main">AEIC Information Releases</a></li>
+	<li><a href="beeperDuty/MMI_scale.pdf" target="main">Modified intensity scale</a></li>
+
+     </ul>
+  </li>
+  <li><a href="contactInfo/" target="main">Contact info</a></li>
+
+  <li>Data Portal
+    <ul>
+       <li><a href="/cgi-bin/projects/db2catalog/db2catalog" target="_top">Catalog</a></li>
+      <li><a href="/input/glenn/aeic/counts/" target="_new">Counts (debug!)</a></li>
+      <li><a href="/Seis/recenteqs/" target="main">Recent EQs</a></li>
+<!--      <li><a href="http://shake:shake@www.aeic.alaska.edu/~shake/shake/archive/" target="main">ShakeMaps</a></li> -->
+      <li><a href="http://www.aeic.alaska.edu/~shake/shake/archive/" target="main">AEIC ShakeMaps</a></li>
+      <li><a href="http://shakepipe:5hakEp1pe@www.aeic.alaska.edu/~shakepipe/shake/archive/" target="main">TAPS ShakeMaps</a></li>
+      <li><a href="/Input/glenn/aeic/maps/stations.html" target="_new">Station DB</a></li>
+      <li><a href="/Input/glenn/aeic/maps/summarydb.html" target="_new">Summary DB</a></li>
+    </ul>
+  </li>
+  <li><a href="FieldNotes/" target="main">Fieldwork</a>
+  </li>
+ <li><a href="report/" target="main">Internal Reports</a>
+  </li>
+  <li>Procedures
+     <ul>
+	<li><a href="beeperDuty/manual.pdf" target="main">Beeper Duty</a></li>
+	<li><a href="report/2008-01/IR2008-01.pdf" target="main">Master Stations database</a></li>
+	<li><a href="processing/AEIC_processing_manual.pdf" target="main">Processing</a></li>
+	<li><a href="procedures/fm_manual.pdf" target="main">Focal mechanisms (fm_tool)</a></li>
+	<li><a href="procedures/example_usage_cvs.pdf" target="main">Version control at AEIC</a></li>
+	<li><a href="procedures/antelope_cvs_repo.pdf" target="main">Antelope contrib</a></li>
+	<li><a href="report/2008-02/IR2008-02.pdf" target="main">The AEIC ShakeMap system</a></li>
+	<li><a href="report/2008-03/IR2008-03/pdf" target="main">The TAPS ShakeMap system</a></li>
+     </ul>
+  </li>
+  <li><a href="processing/" target="main">Processing</a>
+  </li>
+  <li>Projects
+    <ul>
+	<li><a href="projects/shakemap/index.html" target="main">ShakeMap</a></li>
+	<li><a href="projects/eoc/index.html" target="main">Emergency Operations Centers (EOC)</a></li>
+    </ul>
+  </li>
+  <li><a href="stations/station_update.php" target="main">Station updates</a>
+  <li><a href="stations/calibration.php" target="main">Station autocalibration</a>
+
+
+  <li><a href="systeminfo/" target="main">System Documentation</a>
+  </li>
+  <li><a href="links/" target="main"><i>Links</i></a>
+  </li>
+</ul>
+</body>
+</html>

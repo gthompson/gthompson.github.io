@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8">
+   <title>Links to orb status files</title>
+   <link title="indexstyle" href="/input/glenn/css/index.css" type="text/css" rel="stylesheet">
+</head>
+
+
+
+<body>
+
+
+<h1>ORB LOG FILES</h1>
+This is a simple interface to the log files on different orbs. It only looks at logfiles that have been modified within the last 24 hours, so if the log file you are looking for does not appear here, the process may have died. Alternatively it might just not be monitored at present (email glenn if you want a process adding).
+
+
+<!--#include file="/Input/glenn/aeic/eocws/status2.html" -->
+<iframe src="/Input/glenn/aeic/eocws/status2.html" height="130" width="1200" border="1">
+<a href="/Input/glenn/aeic/eocws/status2.html">orb logfiles</a></iframe>
+
+
+
+
+</body>
+</html>

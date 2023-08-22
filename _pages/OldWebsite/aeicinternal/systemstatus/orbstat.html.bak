@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8">
+   <title>Links to orb status files</title>
+   <link title="indexstyle" href="/input/glenn/css/index.css" type="text/css" rel="stylesheet">
+</head>
+
+
+
+<body>
+
+
+<h1>STATUS FILES FOR THE EOC PROJECT</h1>
+
+
+
+<h2>orbstat</h2>
+The following table of links results from running "orbstat -s" on various orbs, grepping out various strings
+including:<p />
+<ul>
+<li>*.BHZ: this is looking at what continuous waveform data is on the orb from broadband stations</li>
+<li>*.EHZ: this is looking at what waveform data is on the orb from short period stations</li>
+<li>*db* : this is looking at what database row packets are on the orb</li>
+<li>*pf* : this is looking at what parameter file packets are on the orb</li>
+</ul>
+
+<!--#include file="/Input/glenn/aeic/eocws/status1.html" -->
+<iframe src="/Input/glenn/aeic/eocws/status1.html" height="320" width="200" border="1">
+<a href="/Input/glenn/aeic/eocws/status1.html">what is on the orbs on ice, inverse and
+travel</a></iframe>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>AEIC Internal Web Page</title>
+   <link title="indexstyle" href="../index.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+<p>The following pages have not been updated in a while and mostly absolete.</p>
+
+<h3>Station Information</h3>
+<p><a href="http://www.aeic.alaska.edu/%7Ea1vco_cal/">AEIC A1VCO Calibration Information</a></p>
+<p><a href="gain_list.html">Gain Ranging Station List</a></p>
+<p><a href="station_stats.html">Station  Statistics and Info Page</a></p>
+<p><a href="/AEIC/internal_old/stations/index.html">Station  file / Field notes</a> (under construction)</p>
+<p><a href="sta_hist_files2.html">Station File Folder Inventory</a></p>
+
+</body>
+</html>

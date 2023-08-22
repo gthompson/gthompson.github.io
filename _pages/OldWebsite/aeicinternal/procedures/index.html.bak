@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>AEIC Internal Web Page</title>
+   <link title="indexstyle" href="../index.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+<h3>Beeper Duty / Alarm Response</h3>
+<ul>
+<p><a href="manual.pdf">Alarm Response Manual</a></p>
+<p><a href="update_voice_message.html">Updating lab voice-mail</a></p>
+<p><a href="earthquake_strengths.html">Earthquake strength terminology</a></p>
+<p><a href="../contactInfo/phonelist.html">Phone list:</a> AEIC, AVO, other helpful numbers</p>
+<p><a href="beeper_duty_schedule.html">Beeper Duty  Schedule</a> (to 19th August 2007)</p>
+<p><a href="http://www.personal-page.com">Personal  Page</a> Lab Beeper # 496-3588</p>
+<p><a href="http://www.dataoncall.com">DataOncall e-fax services</a></p>
+<p><a href="http://www.aeic.alaska.edu/cgi-bin/release_info.pl">AEIC Information Releases</a></p>
+<p><a href="MMI_scale.pdf">Modified intensity scale</a></p>
+<p><a href="example_usage_cvs.pdf">How to use AEIC CVS system</a></p>
+<p><a href="antelope_cvs_repo.pdf">How to contribute to the ANTELOPE CVS REPOSITORY</a></p>
+</ul>
+
+<h3>Interesting earthquakes</h3>
+<ul>
+<p><a href="fm_manual.pdf">Focal Mechanism Tool (fm_tool) manual</a></p>
+</ul>
+
+</body>
+</html>

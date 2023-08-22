@@ -1,0 +1,135 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN"><HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+<META NAME="GENERATOR" CONTENT="Adobe FrameMaker 6.0/HTML Export Filter">
+<LINK REL="STYLESHEET" HREF="monthly_report_manual.css" CHARSET="ISO-8859-1" TYPE="text/css">
+<TITLE> AEIC Monthly Seismicity Report Help</TITLE>
+</HEAD>
+<BODY BGCOLOR="#ffffff">
+<DIV>
+<H1 CLASS="Title">
+<A NAME="pgfId-998200"></A>AEIC Monthly Seismicity Report Help</H1>
+<P CLASS="Body">
+<A NAME="pgfId-998201"></A>Monthly reports are filed in /Seis/reports/monthly partition, with YEAR_MO subdirectories. The master copy of this help file is located in <BR>
+/Seis/reports/monthly/monthly_report_manual.fm. <BR>
+Update this file with the changes and also replace this manual on AEIC internal website by copying new html and pdf files to:</P>
+<P CLASS="Body">
+<A NAME="pgfId-998203"></A>/usr/local/Mosaic/Seis/AEIC/internal/monthly_report_manual.html</P>
+<P CLASS="Body">
+<A NAME="pgfId-998204"></A>/usr/local/Mosaic/Seis/AEIC/internal/monthly_report_manual.pdf</P>
+<P CLASS="Body">
+<A NAME="pgfId-998205"></A>&nbsp;</P>
+<P CLASS="Body">
+<A NAME="pgfId-998206"></A>1. Change directory to:</P>
+<P CLASS="Body">
+<A NAME="pgfId-998207"></A> cd /Seis/reports/monthly </P>
+<P CLASS="Body">
+<A NAME="pgfId-998208"></A>&nbsp;</P>
+<P CLASS="Body">
+<A NAME="pgfId-998209"></A>2. Create a new directory for the month you are working on:</P>
+<P CLASS="Body">
+<A NAME="pgfId-998210"></A>mkdir YEAR_MO</P>
+<P CLASS="Body">
+<A NAME="pgfId-998211"></A> (i.e. 2003_08) </P>
+<P CLASS="Body">
+<A NAME="pgfId-998212"></A>&nbsp;</P>
+<P CLASS="Body">
+<A NAME="pgfId-998213"></A>3. Change directory to the newly created folder:</P>
+<P CLASS="Body">
+<A NAME="pgfId-998214"></A>cd YEAR_MO</P>
+<P CLASS="Body">
+<A NAME="pgfId-998215"></A>&nbsp;</P>
+<P CLASS="Body">
+<A NAME="pgfId-998216"></A>4. On the command line type:</P>
+<P CLASS="Body">
+<A NAME="pgfId-998217"></A>monthly_report_tool</P>
+<P CLASS="Body">
+<A NAME="pgfId-998218"></A>The monthly report tool menu will pop up on your screen. </P>
+<P CLASS="Body">
+<A NAME="pgfId-998247"></A>&nbsp;</P>
+<P CLASS="Body">
+<A NAME="pgfId-998248"></A>5. In the windows on top type in month and a minimum magnitude (Min. Ml) of 4.0. This will determine the minimum magnitude of events that will be included in the monthly highlights.</P>
+<P CLASS="Body">
+<A NAME="pgfId-998256"></A>&nbsp;</P>
+<P CLASS="Body">
+<A NAME="pgfId-998219"></A>5. Click on each button in the monthly_report_tool GUI in sequence, beginning with &quot;Concatenate daily databases&quot; button (will take some time, be patient) </P>
+<P CLASS="Body">
+<A NAME="pgfId-998220"></A>&nbsp;</P>
+<P CLASS="Body">
+<A NAME="pgfId-998262"></A>6. Click on &quot;Review ./monthlydb with dbe&quot;, open origin table and make sure no days are missing from the database. If there are day(s) missing, make sure that all days have been processed and the database tables for the whole month are present in /Seis/processing/analyzed/YEAR_MO. In case new monthlydb needs to be constructed, all previous monthlydb tables need to be removed manually via command: rm monthlydb*</P>
+<P CLASS="Body">
+<A NAME="pgfId-998221"></A>&nbsp;</P>
+<P CLASS="Body">
+<A NAME="pgfId-998279"></A>7. Click on &quot;Generate monthly map, list and highlights&quot;. This may take some time to complete. When the map appears on your screen, allow it to finish drawing, write down the total number of events for the month (you'll need this number later), then move your mouse pointer into the map window and type Ctrl-c to close the window.</P>
+<P CLASS="Body">
+<A NAME="pgfId-998224"></A>&nbsp;</P>
+<P CLASS="Body">
+<A NAME="pgfId-998289"></A>8. Next click on &quot;Open Framemaker to edit monthly highlights&quot; button, FrameMaker will automatically start up. Move the pointer into the Framemaker window, highlight the text &quot;Insert monthly highlights here&quot;, then type Ctrl-1 to replace that text and paste in the text of the monthly highlights. Take the clip-board with the information release copies and for each highlighted event that was felt during the month you are reporting, you mush add the language of the felt report. Write down the total number of felt events for the month.<BR>
+You may now replace all text contained within the red parentheses in the top paragraph with the correct values and information for the current month.<BR>
+!! You should replace the text between the red parentheses before deleting the parentheses themselves.</P>
+<P CLASS="Body">
+<A NAME="pgfId-998291"></A>When you have finished editing the document, be sure to enter your name after &quot;compiled by:&quot; at the bottom of the highlights.</P>
+<P CLASS="Body">
+<A NAME="pgfId-998335"></A>&nbsp;</P>
+<P CLASS="Body">
+<A NAME="pgfId-998338"></A>9. Save the document as Framemaker document (File-&gt;Save) and as text file:<BR>
+-&gt;File<BR>
+-&gt;Save as<BR>
+-&gt;Format=&quot;Text Only&quot;<BR>
+-&gt;File Name=&quot;last_months_list.txt&quot; (you must manually change the file extension to .txt)<BR>
+-&gt;Save</P>
+<P CLASS="Body">
+<A NAME="pgfId-998336"></A>&nbsp;</P>
+<P CLASS="Body">
+<A NAME="pgfId-998346"></A>10. With the pointer in the Framemaker window, type Ctrl-3 to print the monthly highlights. Or you can do it through File-&gt;Print option. Leave the report open so you can refer to it later while editing the map int he next step.</P>
+<P CLASS="Body">
+<A NAME="pgfId-998286"></A>&nbsp;</P>
+<P CLASS="Body">
+<A NAME="pgfId-998225"></A>8. Click on &quot;Edit seismicity map with StarOffice&quot;. This will start StarOffice and bring up the monthly map for you to edit.</P>
+<P CLASS="Body">
+<A NAME="pgfId-998366"></A>8.1. Change the page layout to &quot;landscape&quot; by doing the following:<BR>
+- Pull down menu Format-&gt;Page, then select &quot;Landscape&quot; and click OK<BR>
+- Pull down menu Format-&gt;Position and Size..., then change the rotation angle to 270 degrees and click OK.<BR>
+- Click and drag the map to the center of the page</P>
+<P CLASS="Body">
+<A NAME="pgfId-998372"></A>8.2. Insert lines and text that point to each of the events locations in the last_months_list report (refer to the Framemaker document that you have left open).<BR>
+- Locate the first event by longitude, latitude, and depth. Using the line tool (button in the column on the left side of the StarOffice window), draw a line pointing to event location. Note: Make sure the map graphic is deselected before trying to draw a line. Click anywhere off the map to deselect. Otherwise the line tool won't work.<BR>
+- You may change the weight of the line using the formatting tools above the map window.<BR>
+- Using the text tool, insert text for the event in the following format: MX.X; MO/DA <BR>
+(ex. M4.5; 5/21)<BR>
+- Align the text to the end of the line pointing to the event<BR>
+- Repeat these steps until all events in the monthly highlights list have been labeled on the map.</P>
+<P CLASS="Body">
+<A NAME="pgfId-998373"></A>Helpful hint: You may use Graphics-&gt;Hypocenters option in dbe to see where highlighted events plot on the map.</P>
+<P CLASS="Body">
+<A NAME="pgfId-998367"></A>&nbsp;</P>
+<P CLASS="CM4">
+<A NAME="pgfId-998232"></A>9. Save the map in StarOffice format and as GIF image file:<BR>
+- Pull down menu File-&gt;Save As and save the file with the name lastmonth.sxd<BR>
+- Pull down menu File-&gt;Export and save the file in GIF format with the name lastmonth.gif. Before doing this, make sure you have all graphics selected through Edit-&gt;Select All option.</P>
+<P CLASS="CM4">
+<A NAME="pgfId-998381"></A>10. Print two copies of the map (File-&gt;Print, select printer LEXAEIC). One copy will be presented with the monthly highlights report at the Lab meeting, the second copy should be posted on the bulletin board in the Director' Lounge on the 6th floor, next to the coffee room.</P>
+<P CLASS="CM4">
+<A NAME="pgfId-998383"></A>11. Close the StarOffice and Framemaker documents.</P>
+<P CLASS="Body">
+<A NAME="pgfId-998390"></A>12. Click &quot;Update AEIC monthly report website.&quot;  This will automatically update the monthly report section of the AEIC website. Go to AEIC monthly report webpage and make sure map and highlights have all been updated (http://www.aeic.alaska.edu/html_docs/reports.html)</P>
+<P CLASS="Body">
+<A NAME="pgfId-998411"></A>&nbsp;</P>
+<P CLASS="Body">
+<A NAME="pgfId-998392"></A>14. Click &quot;Update AEIC tracking database&quot;.</P>
+<P CLASS="Body">
+<A NAME="pgfId-998393"></A>&nbsp;</P>
+<P CLASS="Body">
+<A NAME="pgfId-998394"></A>15. When necessary, do &quot;Compute station statistics&quot;. This will take several minutes to complete. When finished, several windows will appear showing the station statistics plots. Move the pointer onto the top window and click `Ctrl-C' to close. If you wish to view or print the station statistics reports, click on the last two buttons.</P>
+<P CLASS="Body">
+<A NAME="pgfId-998395"></A>&nbsp;</P>
+<P CLASS="CM4">
+<A NAME="pgfId-998384"></A>16. Collect the printed highlights, maps, and station statistics plots from the printers and present them at the weekly meeting and/or leave them on the lunch table. </P>
+<P CLASS="Default">
+<A NAME="pgfId-998240"></A>You are now done! </P>
+<P CLASS="Body">
+<A NAME="pgfId-998197"></A>&nbsp;</P>
+</DIV>
+</BODY>
+</HTML>

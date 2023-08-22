@@ -1,0 +1,56 @@
+From glenn@giseis.alaska.edu Thu Mar 27 17:01:23 2008
+Return-Path: <glenn@kiska.giseis.alaska.edu>
+Received: from 137.229.32.66 (swarm.giseis.alaska.edu [137.229.32.66]) by
+	kiska.giseis.alaska.edu (8.13.8+Sun/8.13.8) with ESMTP id m2S11NXD011210
+	for <glenn@giseis.alaska.edu>; Thu, 27 Mar 2008 17:01:23 -0800 (AKDT)
+Subject: Antelope CVS repository
+From: Glenn Thompson <glenn@giseis.alaska.edu>
+Reply-To: glenn@giseis.alaska.edu
+To: glenn@kiska.giseis.alaska.edu
+Content-Type: text/plain
+Message-Id: <1206666073.3122.2699.camel@swarm>
+Mime-Version: 1.0
+X-Mailer: Ximian Evolution 1.4.6.325 
+Date: Thu, 27 Mar 2008 17:01:13 -0800
+Content-Length: 677
+X-Evolution-Source: mbox:/var/mail/glenn
+Content-Transfer-Encoding: 8bit
+
+How to download / create a sandbox:
+-----------------------------------
+mkdir sandbox
+setenv CVSROOT glennt@epicenter.ucsd.edu:/opt/antelope/cvs
+setenv CVS_RSH ssh
+cd sandbox
+cvs checkout contrib
+password is i*8
+
+How to login to remote account:
+-------------------------------
+ssh -l glennt epicenter.ucsd.edu
+
+How to update after not using it a while:
+-----------------------------------------
+cd sandbox/contrib
+cvs update
+
+How to add projects:
+--------------------
+cd export
+mkdir db2kml
+cvs add db2kml
+cd db2kml
+(create db2kml.1, db2kml.pf, Makefile, db2kml.xpl etc)
+cvs add db2kml.1 db2kml.pf Makefile db2kml.xpl
+cvs commit
+
+Test:
+-----
+cvs update
+make 
+make install
+
+
+
+
+
