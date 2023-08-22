@@ -28,7 +28,7 @@
               			<div id="portrait"><img src="images/glenn.png" alt="Glenn Thompson" align="right" /></div>      		
                   		<h2>Contact details</h2>
 
-                  		<p><img src="http://137.229.32.80/images/icon_phone.gif" alt="*" width="27" height="27" hspace="2" />Telephone extension: 7424</p>
+                  		<p><img src="images/icon_phone.gif" alt="*" width="27" height="27" hspace="2" />Telephone extension: 7424</p>
                   		<p><img src="images/icon_email.gif" alt="*" width="27" height="27" hspace="2" />Email address: <a href="mailto:glenn@giseis.alaska.edu">glenn@giseis.alaska.edu</a></p>
                   		<p><img src="images/icon_person.gif" alt="*" width="27" height="27" hspace="2" />Room: 307a</p>
 				<h2 id="research">Background</h2> <p>Took a Joint Honours BSc in Theoretical Physics and Mathematics at St. Andrews, an MSc in Geophysics at Durham and then a PhD in Volcano-seismology at Leeds. First came to the <a href="http://gi.alaska.edu">Geophysical Institute</a> as an <a href="http://www.avo.alaska.edu">AVO</a> postdoc in 1998, then worked as the Seismologist and Deputy Director of the <a href="http://www.mvo.ms">Montserrat Volcano Observatory</a> for many years before returning to Alaska in 2006.</p>
