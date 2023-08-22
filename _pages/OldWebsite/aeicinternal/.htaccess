@@ -1,4 +1,6 @@
 AuthUserFile .htpasswd
 AuthName "Protected Site"
 AuthType Basic
-require user aeicinternal
+<Files "index.html">
+  Require valid-user
+</Files>
