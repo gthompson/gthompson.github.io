@@ -1,4 +1,4 @@
-AuthUserFile /usr/local/mosaic/AEIC/internal/.htpasswd
+AuthUserFile .htpasswd
 AuthGroupFile /dev/null
 AuthName seis+web
 AuthType Basic
