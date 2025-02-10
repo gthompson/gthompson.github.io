@@ -25,7 +25,7 @@ main:
     url: /posters/ 
 
   - title: "USFSeismicLab"
-    url: /usfseismiclab/
+    url: http://usfseismiclab.org/
     
   - title: "Guide"
     url: /markdown/
