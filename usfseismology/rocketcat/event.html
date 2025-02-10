@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocket event browser</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+
+</head>
+<body>
+    <noscript>
+        <p>JavaScript is not enabled. Please enable it to view this page properly.</p>
+    </noscript>
+
+    <header>
+        <h1 id="header_text"></h1>
+    </header>
+
+    <div class="scroll">
+        <button id="prevBtn1" onclick="previousPage()">Previous</button>
+        <a href="index.html">Back to list</a>
+        <button id="nextBtn1" onclick="nextPage()">Next</button>
+    </div>
+
+    <div class="event_page">
+        <table>
+        <tr>
+            <th>UTC</th><th>SLC</th><th>Rocket</th><th>Mission</th>
+        </tr>
+        <tr>
+        <td id="event_datetime"></td>
+        <td id="event_slc"></td>
+        <td id="event_rocket"></td>
+        <td id="event_mission"></td>
+        </tr>
+        </table>
+    </div>
+    
+    <!-- Radio buttons to choose between two images -->
+    <input type="radio" name="imageOption" value="image1" id="image1" checked> Infrasonic<br>
+    <input type="radio" name="imageOption" value="image2" id="image2"> Seismic Velocity<br>
+    <input type="radio" name="imageOption" value="image3" id="image3"> Seismic Displacement<br>    
+    <input type="radio" name="imageOption" value="image4" id="image4"> Calibrated Well Data<br>    
+    <input type="radio" name="imageOption" value="image5" id="image5"> Water Level Data<br>
+
+    <br>
+    
+    <!-- Image display area -->
+    <img id="imageDisplay" src="" alt="Image Preview">
+
+    <div class="scroll">
+        <button id="prevBtn2" onclick="previousPage()">Previous</button>
+        <a href="index.html">Back to list</a>
+        <button id="nextBtn2" onclick="nextPage()">Next</button>
+    </div>
+
+    <script src="event.js"></script>
+
+    <footer>
+        <table>
+            <tr>
+        <td><img height="200em" src="rocketcat.jpg"></td>
+        <td><b>ROCKETCAT</b>: The Seismo-Acoustic Rocket Event Catalog 
+            <br/>&copy; Glenn Thompson, 2025</td>
+        </tr>
+        </table>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocket Launches from Kennedy Space Center</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+</head>
+<body>
+
+    <header>
+        <h1>Rocket Events</h1>
+    </header>
+
+    <h2>Select a CSV File</h2>
+    <!-- Dropdown to choose a CSV file -->
+    <select id="csvSelect">
+        <option value="">-- Select a CSV File --</option>
+    </select> 
+
+    <div class="launch-list">
+        <p id="jsonTable"></p>
+    </div>
+
+        <table>
+            <tr>
+        <td><img height="200em" src="rocketcat.jpg"></td>
+        <td><b>ROCKETCAT</b>: The Seismo-Acoustic Rocket Event Catalog 
+            <br/>&copy; Glenn Thompson, 2025</td>
+        </tr>
+        </table>
+            
+    <footer>
+    <h2 class='center'>Links:</h2>
+    <table>
+    <tr><td>
+    <a class='center' href="http://131.247.211.6/rocketseismology/index.html"><img src="http://131.247.211.6/rocketseismology/rocket_seismology.jpg"></a>
+    </td><td><a class='center' href="/flovo"><img src="/flovo/flovo.jpg"></a>
+    </td><td><a class='center' href="/environmentalseismology"><img width=400em src="/environmentalseismology/envseis.jpg"></a>
+    </td></tr></table>
+    </footer>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
